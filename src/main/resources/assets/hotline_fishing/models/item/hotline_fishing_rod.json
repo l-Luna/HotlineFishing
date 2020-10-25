@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "hotline_fishing:item/hotline_fishing_rod"
+  }
+}

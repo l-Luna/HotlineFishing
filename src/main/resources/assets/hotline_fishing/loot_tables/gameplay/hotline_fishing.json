@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": -2,
+          "name": "hotline_fishing:gameplay/hotline_junk"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "predicate": {
+                "hotline_fishing_hook": {
+                  "in_nether_lava": true
+                }
+              },
+              "entity": "this"
+            }
+          ],
+          "weight": 5,
+          "quality": 2,
+          "name": "hotline_fishing:gameplay/hotline_treasure"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 85,
+          "quality": 0,
+          "name": "hotline_fishing:gameplay/hotline_fish"
+        }
+      ]
+    }
+  ]
+}

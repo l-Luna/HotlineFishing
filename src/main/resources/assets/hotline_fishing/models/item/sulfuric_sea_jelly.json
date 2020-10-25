@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hotline_fishing:item/sulfuric_sea_jelly"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "hotline_fishing:gold_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "hotline_fishing:scaly_snapper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "hotline_fishing:sulfuric_sea_jelly"
+        }
+      ]
+    }
+  ]
+}

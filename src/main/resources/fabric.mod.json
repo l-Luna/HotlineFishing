@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "hotline_fishing",
+  "version": "${version}",
+  "name": "Hotline Fishing",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "accessWidener": "hotline_fishing.accesswidener",
+  "entrypoints": {
+    "client": [
+      "net.hotline_fishing.client.ClientInit"
+    ],
+    "main": [
+      "net.hotline_fishing.HotlineFishing"
+    ]
+  },
+  "mixins": [
+    "hotline_fishing.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.2+build.210",
+    "fabric": "*",
+    "minecraft": "1.16.3"
+  }
+}
